@@ -15,7 +15,7 @@ cd tmp-deploy
 git init
 git add -A
 git commit -m 'auto deploy2dokku'
-git remote add dokku dokku@app.se7ensky.com:mdash
+git remote add dokku dokku@app.se7ensky.com:ff6900
 git push -f dokku master
 cd ..
 rm -rf tmp
